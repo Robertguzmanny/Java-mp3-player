@@ -5,6 +5,7 @@ import javazoom.jl.player.advanced.PlaybackListener;
 import java.io.*;
 import java.util.ArrayList;
 
+
 public class MusicPlayer extends PlaybackListener {
     // this will be used to update isPaused more synchronously
     private static final Object playSignal = new Object();
